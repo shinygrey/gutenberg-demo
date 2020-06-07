@@ -1,0 +1,30 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.bsborder{border: 1px solid #dee2e6!important;}
+
+.wp-block-gutenberg-demo-cgb-sample {
+  background: $red;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+}
+
+.wp-block-gutenberg-demo-css-tricks-card{
+  border: 1px solid forestgreen;
+  padding: 1rem;
+  .card__image{
+    height: 15.7rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  .card__title{
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
