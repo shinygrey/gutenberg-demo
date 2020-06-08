@@ -7,31 +7,9 @@ wp.blocks.registerBlockType('gutenberg-demo/demo3', {
 	icon: 'arrow-left-alt2',
 
 	attributes: {
-		foo: {
-			source: 'attribute',
-			type: 'string',
-			attribute: 'alt',
-			selector: '.rootdiv',
-		},
-		bar: {
-			type: 'string',
-			source: 'text',
-			selector: '.rootdiv',
-		},
-/* show what happens when type and source removed 
-Without selector, the block can't reconstruct itself from the saved html
-*/
-		mainText: {
-			selector: '.rootdiv',
-			source: 'children'
-		},
+		//deliberately broken to show need for selector and source
+		mainText: {},
 	},
-
-/*
-type: 'array',
-source: 'children',
-selector: '.rootdiv'
-*/
 
 	edit: function(props) {
 
@@ -55,7 +33,7 @@ selector: '.rootdiv'
 
 	save: function(props) {
 
-		return <div className='jsx-in-save-component rootdiv'>{ props.attributes.mainText }</div>
+		return <div style={{border: 'solid DarkOrange 2px'}} className='jsx-in-save-component rootdiv'>{ props.attributes.mainText }</div>
 
 	}
 });

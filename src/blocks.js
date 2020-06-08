@@ -13,4 +13,6 @@ import './blocks/cgb-sample.js';
 import './blocks/demo1.js';
 import './blocks/demo2.js';
 import './blocks/demo3.js';
+import './blocks/demo4.js';
+import './blocks/demo5.js';
 import './blocks/css-tricks-card.js';
