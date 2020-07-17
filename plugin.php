@@ -5,7 +5,7 @@
  * Description: Plugin created using create-guten-block.
  * Author: Greg Hurlock
  * Author URI: https://www.shinygrey.com/
- * Version: 1.0.3
+ * Version: 1.0.4
  */
 
 if ( ! defined( 'ABSPATH' ) ) {exit;} // Exit if accessed directly.

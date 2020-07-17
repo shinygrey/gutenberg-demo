@@ -16,3 +16,4 @@ import './blocks/demo3.js';
 import './blocks/demo4.js';
 import './blocks/demo5.js';
 import './blocks/css-tricks-card.js';
+import './blocks/demo6-hoc.js';
